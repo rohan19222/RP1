@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Local output and sensitive evidence
+*.pcap
+*.pcapng
+*.key
+*.pem
+*.p12
+credentials*
+secrets*
+private/
+# Keep folders in Git while ignoring local evidence by default.
+evidence/**/*
+!evidence/**/.gitkeep
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
